@@ -1,0 +1,19 @@
+{
+  "name": "api-life-expectancy-by-country",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rharison/api-life-expectancy-by-country.git"
+  },
+  "author": "@rharison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rharison/api-life-expectancy-by-country/issues"
+  },
+  "homepage": "https://github.com/rharison/api-life-expectancy-by-country#readme"
+}
