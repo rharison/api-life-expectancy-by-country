@@ -1,5 +1,7 @@
-import express, { Request as ExpressRequest, Response } from 'express'
 import 'dotenv/config'
+import './app'
+
+import express, { Request as ExpressRequest, Response } from 'express'
 
 const app = express();
 app.use(express.json())
