@@ -1,4 +1,4 @@
-import express, { NextFunction, Request as ExpressRequest, Response } from 'express'
+import express, { Request as ExpressRequest, Response } from 'express'
 
 const app = express();
 app.use(express.json())
@@ -8,6 +8,6 @@ app.listen(3333, () => {
   console.log(`Server listening on port ${3333}`)
 })
 
-app.get('/', async (req: ExpressRequest, res: Response) => {
+app.get('/', async (_req: ExpressRequest, res: Response) => {
   res.send('Hello World!')
 })
